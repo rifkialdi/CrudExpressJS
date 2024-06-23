@@ -2,6 +2,12 @@ const express = require('express')
 const app = express()
 const port = 8000
 
+//import library CORS
+const cors = require('cors')
+
+//use cors
+app.use(cors())
+
 //import body parser
 const bodyParser = require('body-parser')
 
